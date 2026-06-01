@@ -1,6 +1,6 @@
 # Prompt Library
 
-A public GitHub-ready prompt library built from the local Markdown prompts in this folder. The structure is inspired by the navigation pattern used by [DAIR.AI Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide): a short introduction, grouped guide links, and one focused page per topic.
+A public GitHub-ready prompt library built from the local Markdown prompts in this folder.
 
 ## How Navigation Works
 
