@@ -647,12 +647,32 @@ Your *final* output (Step 4) must be a single, complete prompt in a Markdown cod
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `15.png`
+
+![Demo asset: 15.png](../../examples/15.png)
+
+### View PNG demo: `15.1.png`
+
+![Demo asset: 15.1.png](../../examples/15.1.png)
+
+### View PNG demo: `15.2.png`
+
+![Demo asset: 15.2.png](../../examples/15.2.png)
+
+### View PNG demo: `15.3.png`
+
+![Demo asset: 15.3.png](../../examples/15.3.png)
+
+### View PNG demo: `15.4.png`
+
+![Demo asset: 15.4.png](../../examples/15.4.png)
 
 ## Related Versions
 
-- - [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

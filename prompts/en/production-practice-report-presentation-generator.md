@@ -232,12 +232,14 @@ Keep wording technical and audit-style.
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+- [Open PDF demo: `6.pdf`](../../examples/6.pdf)
 
 ## Related Versions
 
-- - [Category: Academic presentations](../../categories/academic-presentations.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Academic presentations](../../categories/academic-presentations.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

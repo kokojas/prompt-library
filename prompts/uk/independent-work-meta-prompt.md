@@ -263,15 +263,11 @@ Citation format inside text: (Author, Year).
 
 </details>
 
-## Приклади та матеріали
-
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
-
 ## Пов'язані версії
 
-- - [English version](../en/independent-work-meta-prompt.md)
-- - [Category: Промпти академічного письма](../../categories/academic-writing-prompts.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/independent-work-meta-prompt.md)
+- [Category: Промпти академічного письма](../../categories/academic-writing-prompts.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

@@ -88,13 +88,21 @@ Filling rules:
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `21.png`
+
+![Demo asset: 21.png](../../examples/21.png)
+
+### View PNG demo: `21.1.png`
+
+![Demo asset: 21.1.png](../../examples/21.1.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/qualification-task-form-filler.md)
-- - [Category: Qualification document forms](../../categories/qualification-document-forms.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/qualification-task-form-filler.md)
+- [Category: Qualification document forms](../../categories/qualification-document-forms.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

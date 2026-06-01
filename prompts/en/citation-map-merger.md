@@ -122,13 +122,17 @@ Your task is only to create the Master Citation Registry.
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `2.png`
+
+![Demo asset: 2.png](../../examples/2.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/citation-map-merger.md)
-- - [Category: Academic extraction and citation control](../../categories/academic-extraction-and-citation-control.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/citation-map-merger.md)
+- [Category: Academic extraction and citation control](../../categories/academic-extraction-and-citation-control.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

@@ -296,12 +296,24 @@ Then output only the mode-appropriate result.
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `16.png`
+
+![Demo asset: 16.png](../../examples/16.png)
+
+### View PNG demo: `16.1.png`
+
+![Demo asset: 16.1.png](../../examples/16.1.png)
+
+### View PNG demo: `16.2.png`
+
+![Demo asset: 16.2.png](../../examples/16.2.png)
 
 ## Related Versions
 
-- - [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

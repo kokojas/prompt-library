@@ -71,13 +71,14 @@ The library is designed for quick browsing:
 
 ## Examples and Demo Materials
 
-No PNG/PDF/PPTX demo assets were present in the local folder at build time. Each prompt page has an `Examples and Demo Materials` section reserved for future links to generated presentations, schemes, PDFs, or screenshots.
+Relevant PNG/PDF or PPTX materials can be found in the prompt pages and under `examples/` for personal review. These files show examples of presentations, schemes, screenshots, or other outputs that the prompts can generate or support.
 
 ## Repository Layout
 
 - `prompts/en/` - English prompt publication pages.
 - `prompts/uk/` - Ukrainian prompt publication pages for Ukrainian source prompts.
 - `categories/` - category landing pages.
+- `examples/` - PNG/PDF/PPTX demo materials for personal review.
 - `source/` - original local Markdown source files.
 - `translations/en/` - generated English translations for Ukrainian prompt bodies.
 - `tools/` - build script used to regenerate the library.

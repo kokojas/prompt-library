@@ -50,13 +50,17 @@ Without [cite_start] and other [cite].
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `4.png`
+
+![Demo asset: 4.png](../../examples/4.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/defense-speech-from-presentation.md)
-- - [Category: Academic presentations](../../categories/academic-presentations.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/defense-speech-from-presentation.md)
+- [Category: Academic presentations](../../categories/academic-presentations.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

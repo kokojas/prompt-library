@@ -139,12 +139,16 @@ After you have generated the "Setup & Strategy Prompt" above and the user has re
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `14.png`
+
+![Demo asset: 14.png](../../examples/14.png)
 
 ## Related Versions
 
-- - [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

@@ -328,14 +328,10 @@ you must immediately begin the session.
 
 </details>
 
-## Examples and Demo Materials
-
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
-
 ## Related Versions
 
-- - [Category: TOEFL speaking practice](../../categories/toefl-speaking-practice.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: TOEFL speaking practice](../../categories/toefl-speaking-practice.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

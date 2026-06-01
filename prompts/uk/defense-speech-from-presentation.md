@@ -50,13 +50,17 @@
 
 ## Приклади та матеріали
 
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
+Нижче додано відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення з тим, що може генерувати або підтримувати цей промпт.
+
+### Переглянути PNG demo: `4.png`
+
+![Demo asset: 4.png](../../examples/4.png)
 
 ## Пов'язані версії
 
-- - [English version](../en/defense-speech-from-presentation.md)
-- - [Category: Академічні презентації](../../categories/academic-presentations.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/defense-speech-from-presentation.md)
+- [Category: Академічні презентації](../../categories/academic-presentations.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

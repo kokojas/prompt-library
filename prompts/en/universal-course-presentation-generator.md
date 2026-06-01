@@ -285,14 +285,10 @@ For each image include:
 
 </details>
 
-## Examples and Demo Materials
-
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
-
 ## Related Versions
 
-- - [Category: Academic presentations](../../categories/academic-presentations.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Academic presentations](../../categories/academic-presentations.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

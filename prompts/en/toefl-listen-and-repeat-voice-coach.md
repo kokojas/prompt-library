@@ -374,12 +374,20 @@ Level A
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `28.png`
+
+![Demo asset: 28.png](../../examples/28.png)
+
+### View PNG demo: `28.1.png`
+
+![Demo asset: 28.1.png](../../examples/28.1.png)
 
 ## Related Versions
 
-- - [Category: TOEFL speaking practice](../../categories/toefl-speaking-practice.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: TOEFL speaking practice](../../categories/toefl-speaking-practice.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

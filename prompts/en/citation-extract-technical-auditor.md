@@ -187,13 +187,21 @@ Your task is only to create a Citation Map for one specific file.
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `1.png`
+
+![Demo asset: 1.png](../../examples/1.png)
+
+### View PNG demo: `1.1.png`
+
+![Demo asset: 1.1.png](../../examples/1.1.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/citation-extract-technical-auditor.md)
-- - [Category: Academic extraction and citation control](../../categories/academic-extraction-and-citation-control.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/citation-extract-technical-auditor.md)
+- [Category: Academic extraction and citation control](../../categories/academic-extraction-and-citation-control.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

@@ -271,13 +271,37 @@
 
 ## Приклади та матеріали
 
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
+Нижче додано відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення з тим, що може генерувати або підтримувати цей промпт.
+
+### Переглянути PNG demo: `13.png`
+
+![Demo asset: 13.png](../../examples/13.png)
+
+### Переглянути PNG demo: `13.1.png`
+
+![Demo asset: 13.1.png](../../examples/13.1.png)
+
+### Переглянути PNG demo: `13.2.png`
+
+![Demo asset: 13.2.png](../../examples/13.2.png)
+
+### Переглянути PNG demo: `13.3.png`
+
+![Demo asset: 13.3.png](../../examples/13.3.png)
+
+### Переглянути PNG demo: `13.4.png`
+
+![Demo asset: 13.4.png](../../examples/13.4.png)
+
+### Переглянути PNG demo: `13.5.png`
+
+![Demo asset: 13.5.png](../../examples/13.5.png)
 
 ## Пов'язані версії
 
-- - [English version](../en/production-practice-report-scheme-generator.md)
-- - [Category: Звіти з практики](../../categories/practice-reports.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/production-practice-report-scheme-generator.md)
+- [Category: Звіти з практики](../../categories/practice-reports.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

@@ -271,13 +271,37 @@ Perform the task in two separate "next" requests from me.`
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `13.png`
+
+![Demo asset: 13.png](../../examples/13.png)
+
+### View PNG demo: `13.1.png`
+
+![Demo asset: 13.1.png](../../examples/13.1.png)
+
+### View PNG demo: `13.2.png`
+
+![Demo asset: 13.2.png](../../examples/13.2.png)
+
+### View PNG demo: `13.3.png`
+
+![Demo asset: 13.3.png](../../examples/13.3.png)
+
+### View PNG demo: `13.4.png`
+
+![Demo asset: 13.4.png](../../examples/13.4.png)
+
+### View PNG demo: `13.5.png`
+
+![Demo asset: 13.5.png](../../examples/13.5.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/production-practice-report-scheme-generator.md)
-- - [Category: Practice reports](../../categories/practice-reports.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/production-practice-report-scheme-generator.md)
+- [Category: Practice reports](../../categories/practice-reports.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

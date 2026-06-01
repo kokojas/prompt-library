@@ -45,15 +45,11 @@
 
 </details>
 
-## Приклади та матеріали
-
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
-
 ## Пов'язані версії
 
-- - [English version](../en/moodle-test-answering-from-files.md)
-- - [Category: Навчання та оцінювання](../../categories/study-and-assessment.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/moodle-test-answering-from-files.md)
+- [Category: Навчання та оцінювання](../../categories/study-and-assessment.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

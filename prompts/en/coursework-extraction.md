@@ -55,13 +55,17 @@ IMPORTANT CONDITION: In the text of these sections there are references to liter
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `9.png`
+
+![Demo asset: 9.png](../../examples/9.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/coursework-extraction.md)
-- - [Category: Extraction prompts](../../categories/extraction-prompts.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/coursework-extraction.md)
+- [Category: Extraction prompts](../../categories/extraction-prompts.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

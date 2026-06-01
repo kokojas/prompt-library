@@ -22,6 +22,7 @@ SOURCE = ROOT.parent
 PROMPTS = ROOT / "prompts"
 CATEGORIES = ROOT / "categories"
 TRANSLATIONS = ROOT / "translations" / "en"
+EXAMPLES = ROOT / "examples"
 
 
 @dataclass(frozen=True)
@@ -730,12 +731,54 @@ METADATA: list[Meta] = [
 ]
 
 
+DEMO_ASSETS: dict[str, list[str]] = {
+    "citation-extract-technical-auditor": ["1.png", "1.1.png"],
+    "citation-map-merger": ["2.png"],
+    "biotechnology-course-project-presentation-generator": ["3.pdf"],
+    "defense-speech-from-presentation": ["4.png"],
+    "nuft-ngbt-course-work-presentation-generator": ["5.pdf"],
+    "production-practice-report-presentation-generator": ["6.pdf"],
+    "production-practice-technology-presentation-generator": ["7.pdf"],
+    "teo-meta-router-biotechnology-coursework": ["8.png", "8.1.png", "8.2.png", "8.3.png"],
+    "coursework-extraction": ["9.png"],
+    "first-coursework-extraction": ["9.png"],
+    "independent-work-extraction": ["10.png"],
+    "pre-diploma-practice-extraction": ["11.png"],
+    "pre-fermentation-course-project-extraction": ["12.png"],
+    "production-practice-report-scheme-generator": ["13.png", "13.1.png", "13.2.png", "13.3.png", "13.4.png", "13.5.png"],
+    "chain-of-prompts-architect": ["14.png"],
+    "document-synthesis-prompt-generator-with-citations": ["15.png", "15.1.png", "15.2.png", "15.3.png", "15.4.png"],
+    "file-to-prompt-orchestrator": ["16.png", "16.1.png", "16.2.png"],
+    "step-by-step-prompt-engineering-generator": ["17.png", "17.1.png", "17.2.png", "17.3.png"],
+    "examination-commission-submission-form-filler": ["18.png", "18.1.png"],
+    "qualification-review-form-filler": ["19.png", "19.1.png"],
+    "qualification-summary-form-filler": ["20.png"],
+    "qualification-task-form-filler": ["21.png", "21.1.png"],
+    "qualification-title-page-form-filler": ["22.png"],
+    "qualification-topic-application-form-filler": ["23.png"],
+    "bachelor-thesis-assembly-prompt": ["24.png", "24.1.png", "24.2.png", "24.3.png", "24.4.png"],
+    "qualification-work-parts-analysis": ["25.png"],
+    "ukrainian-grocery-price-research-chain": ["26.png", "26.1.png"],
+    "biotech-project-flowchart-generator": ["27.pdf", "27.1.pdf"],
+    "toefl-listen-and-repeat-voice-coach": ["28.png", "28.1.png"],
+}
+
+
+WITHOUT_EXAMPLES = {
+    "universal-course-presentation-generator",
+    "independent-work-meta-prompt",
+    "pre-diploma-practice-gap-analysis",
+    "moodle-test-answering-from-files",
+    "toefl-speaking-2026-interview-coach",
+}
+
+
 def run(cmd: list[str], cwd: Path = ROOT) -> str:
     return subprocess.check_output(cmd, cwd=cwd, text=True).strip()
 
 
 def ensure_dirs() -> None:
-    for path in [PROMPTS / "en", PROMPTS / "uk", CATEGORIES, TRANSLATIONS, ROOT / "tools"]:
+    for path in [PROMPTS / "en", PROMPTS / "uk", CATEGORIES, TRANSLATIONS, EXAMPLES, ROOT / "tools"]:
         path.mkdir(parents=True, exist_ok=True)
 
 
@@ -776,6 +819,42 @@ def details_prompt(text: str, label: str) -> str:
     return f"<details open>\n<summary>{html.escape(label)}</summary>\n\n{fence(text)}\n\n</details>"
 
 
+def example_asset_link(filename: str) -> str:
+    return f"../../examples/{quote_path(filename)}"
+
+
+def examples_section(meta: Meta, page_lang: str) -> str | None:
+    if meta.slug in WITHOUT_EXAMPLES:
+        return None
+
+    assets = DEMO_ASSETS.get(meta.slug, [])
+    if not assets:
+        if page_lang == "uk":
+            return "Тут можна знайти відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення, коли вони додані до `examples/`."
+        return "You can find relevant PNG/PDF or PPTX materials here for personal review when they are added under `examples/`."
+
+    if page_lang == "uk":
+        intro = "Нижче додано відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення з тим, що може генерувати або підтримувати цей промпт."
+        pdf_label = "Відкрити PDF demo"
+        png_label = "Переглянути PNG demo"
+    else:
+        intro = "Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support."
+        pdf_label = "Open PDF demo"
+        png_label = "View PNG demo"
+
+    lines = [intro, ""]
+    for filename in assets:
+        link = example_asset_link(filename)
+        if filename.lower().endswith(".png"):
+            lines.append(f"### {png_label}: `{filename}`")
+            lines.append("")
+            lines.append(f"![Demo asset: {filename}]({link})")
+        else:
+            lines.append(f"- [{pdf_label}: `{filename}`]({link})")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
 def markdown_page(meta: Meta, text: str, page_lang: str, translated_text: str | None = None) -> str:
     if page_lang == "uk":
         title = meta.title_uk
@@ -806,7 +885,6 @@ def markdown_page(meta: Meta, text: str, page_lang: str, translated_text: str | 
             "Додайте файли або посилання, які промпт очікує як вхідні дані.",
             "Після першого запуску уточніть змінні, які модель попросить конкретизувати.",
         ]
-        examples_note = "Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут."
     else:
         title = meta.title_en
         summary = meta.summary_en
@@ -836,13 +914,13 @@ def markdown_page(meta: Meta, text: str, page_lang: str, translated_text: str | 
             "Attach the files or links expected by the prompt.",
             "After the first run, fill in any variables or clarifications requested by the model.",
         ]
-        examples_note = "No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section."
+    example_content = examples_section(meta, page_lang)
 
     related_lines = []
     if nav:
-        related_lines.append(f"- {nav}")
-    related_lines.append(f"- [Category: {category}](../../categories/{meta.category_slug}.md)")
-    related_lines.append("- [All prompts](../../prompts/index.md)")
+        related_lines.append(nav)
+    related_lines.append(f"[Category: {category}](../../categories/{meta.category_slug}.md)")
+    related_lines.append("[All prompts](../../prompts/index.md)")
 
     sections = [
         f"# {title}",
@@ -861,13 +939,14 @@ def markdown_page(meta: Meta, text: str, page_lang: str, translated_text: str | 
         list_md_bullets(usage),
         f"## {headings['prompt']}",
         details_prompt(prompt_text, prompt_label),
-        f"## {headings['examples']}",
-        examples_note,
         f"## {headings['related']}",
         list_md_bullets(related_lines),
         f"## {headings['source']}",
         f"Original local source: [{meta.file}]({source_link(meta.file)})",
     ]
+    if example_content:
+        prompt_index = sections.index(f"## {headings['related']}")
+        sections[prompt_index:prompt_index] = [f"## {headings['examples']}", example_content]
     return "\n\n".join(sections).strip() + "\n"
 
 
@@ -1095,13 +1174,14 @@ def readme() -> str:
         "## Guides",
         "\n".join(toc_lines),
         "## Examples and Demo Materials",
-        "No PNG/PDF/PPTX demo assets were present in the local folder at build time. Each prompt page has an `Examples and Demo Materials` section reserved for future links to generated presentations, schemes, PDFs, or screenshots.",
+        "Relevant PNG/PDF or PPTX materials can be found in the prompt pages and under `examples/` for personal review. These files show examples of presentations, schemes, screenshots, or other outputs that the prompts can generate or support.",
         "## Repository Layout",
         "\n".join(
             [
                 "- `prompts/en/` - English prompt publication pages.",
                 "- `prompts/uk/` - Ukrainian prompt publication pages for Ukrainian source prompts.",
                 "- `categories/` - category landing pages.",
+                "- `examples/` - PNG/PDF/PPTX demo materials for personal review.",
                 "- `source/` - original local Markdown source files.",
                 "- `translations/en/` - generated English translations for Ukrainian prompt bodies.",
                 "- `tools/` - build script used to regenerate the library.",

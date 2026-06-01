@@ -300,13 +300,17 @@
 
 ## Приклади та матеріали
 
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
+Нижче додано відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення з тим, що може генерувати або підтримувати цей промпт.
+
+### Переглянути PNG demo: `25.png`
+
+![Demo asset: 25.png](../../examples/25.png)
 
 ## Пов'язані версії
 
-- - [English version](../en/qualification-work-parts-analysis.md)
-- - [Category: Workflow кваліфікаційної роботи](../../categories/qualification-thesis-workflow.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/qualification-work-parts-analysis.md)
+- [Category: Workflow кваліфікаційної роботи](../../categories/qualification-thesis-workflow.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

@@ -91,15 +91,11 @@
 
 </details>
 
-## Приклади та матеріали
-
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
-
 ## Пов'язані версії
 
-- - [English version](../en/pre-diploma-practice-gap-analysis.md)
-- - [Category: Звіти з практики](../../categories/practice-reports.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/pre-diploma-practice-gap-analysis.md)
+- [Category: Звіти з практики](../../categories/practice-reports.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 

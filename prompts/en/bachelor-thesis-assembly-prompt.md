@@ -338,13 +338,33 @@ Before generating the first part:
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `24.png`
+
+![Demo asset: 24.png](../../examples/24.png)
+
+### View PNG demo: `24.1.png`
+
+![Demo asset: 24.1.png](../../examples/24.1.png)
+
+### View PNG demo: `24.2.png`
+
+![Demo asset: 24.2.png](../../examples/24.2.png)
+
+### View PNG demo: `24.3.png`
+
+![Demo asset: 24.3.png](../../examples/24.3.png)
+
+### View PNG demo: `24.4.png`
+
+![Demo asset: 24.4.png](../../examples/24.4.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/bachelor-thesis-assembly-prompt.md)
-- - [Category: Qualification thesis workflow](../../categories/qualification-thesis-workflow.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/bachelor-thesis-assembly-prompt.md)
+- [Category: Qualification thesis workflow](../../categories/qualification-thesis-workflow.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

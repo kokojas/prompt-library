@@ -54,13 +54,17 @@ IMPORTANT CONDITION: In the text of these sections, there are references to lite
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `10.png`
+
+![Demo asset: 10.png](../../examples/10.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/independent-work-extraction.md)
-- - [Category: Extraction prompts](../../categories/extraction-prompts.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/independent-work-extraction.md)
+- [Category: Extraction prompts](../../categories/extraction-prompts.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

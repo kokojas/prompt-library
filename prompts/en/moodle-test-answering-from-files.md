@@ -45,15 +45,11 @@ Analyze all attached files. Use only this database to provide answers to the que
 
 </details>
 
-## Examples and Demo Materials
-
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
-
 ## Related Versions
 
-- - [Українська версія](../uk/moodle-test-answering-from-files.md)
-- - [Category: Study and assessment](../../categories/study-and-assessment.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/moodle-test-answering-from-files.md)
+- [Category: Study and assessment](../../categories/study-and-assessment.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

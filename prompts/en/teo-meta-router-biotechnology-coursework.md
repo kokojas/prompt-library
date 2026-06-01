@@ -2025,12 +2025,28 @@ Use this block as a copy/paste insert when editing or cloning the prompt.
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `8.png`
+
+![Demo asset: 8.png](../../examples/8.png)
+
+### View PNG demo: `8.1.png`
+
+![Demo asset: 8.1.png](../../examples/8.1.png)
+
+### View PNG demo: `8.2.png`
+
+![Demo asset: 8.2.png](../../examples/8.2.png)
+
+### View PNG demo: `8.3.png`
+
+![Demo asset: 8.3.png](../../examples/8.3.png)
 
 ## Related Versions
 
-- - [Category: Biotechnology coursework](../../categories/biotechnology-coursework.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Biotechnology coursework](../../categories/biotechnology-coursework.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

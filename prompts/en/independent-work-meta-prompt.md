@@ -263,15 +263,11 @@ Before issuing the final text check:
 
 </details>
 
-## Examples and Demo Materials
-
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
-
 ## Related Versions
 
-- - [Українська версія](../uk/independent-work-meta-prompt.md)
-- - [Category: Academic writing prompts](../../categories/academic-writing-prompts.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/independent-work-meta-prompt.md)
+- [Category: Academic writing prompts](../../categories/academic-writing-prompts.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

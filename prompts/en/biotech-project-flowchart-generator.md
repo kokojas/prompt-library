@@ -193,12 +193,16 @@ Immediately after generating the modified Chain of Prompts, generate the followi
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+- [Open PDF demo: `27.pdf`](../../examples/27.pdf)
+
+- [Open PDF demo: `27.1.pdf`](../../examples/27.1.pdf)
 
 ## Related Versions
 
-- - [Category: Schemes and diagrams](../../categories/schemes-and-diagrams.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Schemes and diagrams](../../categories/schemes-and-diagrams.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

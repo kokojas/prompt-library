@@ -78,13 +78,17 @@ Filling rules:
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `23.png`
+
+![Demo asset: 23.png](../../examples/23.png)
 
 ## Related Versions
 
-- - [Українська версія](../uk/qualification-topic-application-form-filler.md)
-- - [Category: Qualification document forms](../../categories/qualification-document-forms.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/qualification-topic-application-form-filler.md)
+- [Category: Qualification document forms](../../categories/qualification-document-forms.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

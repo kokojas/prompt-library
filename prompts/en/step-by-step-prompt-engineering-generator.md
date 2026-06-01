@@ -73,12 +73,28 @@ Take a deep breath and complete the task with the utmost responsibility and atte
 
 ## Examples and Demo Materials
 
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
+Relevant PNG/PDF or PPTX materials are included below for personal review of what this prompt can generate or support.
+
+### View PNG demo: `17.png`
+
+![Demo asset: 17.png](../../examples/17.png)
+
+### View PNG demo: `17.1.png`
+
+![Demo asset: 17.1.png](../../examples/17.1.png)
+
+### View PNG demo: `17.2.png`
+
+![Demo asset: 17.2.png](../../examples/17.2.png)
+
+### View PNG demo: `17.3.png`
+
+![Demo asset: 17.3.png](../../examples/17.3.png)
 
 ## Related Versions
 
-- - [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
-- - [All prompts](../../prompts/index.md)
+- [Category: Prompt engineering utilities](../../categories/prompt-engineering-utilities.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

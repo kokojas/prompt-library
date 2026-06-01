@@ -90,15 +90,11 @@ Perform the task in two steps: (1) planning and searching for critical data, (2)
 
 </details>
 
-## Examples and Demo Materials
-
-No separate PNG/PDF/PPTX demo material is attached to this publication yet. When an example output exists, add it under `examples/` and link it from this section.
-
 ## Related Versions
 
-- - [Українська версія](../uk/pre-diploma-practice-gap-analysis.md)
-- - [Category: Practice reports](../../categories/practice-reports.md)
-- - [All prompts](../../prompts/index.md)
+- [Українська версія](../uk/pre-diploma-practice-gap-analysis.md)
+- [Category: Practice reports](../../categories/practice-reports.md)
+- [All prompts](../../prompts/index.md)
 
 ## Source
 

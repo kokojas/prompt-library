@@ -338,13 +338,33 @@ Abstract (англійською мовою одразу після рефера
 
 ## Приклади та матеріали
 
-Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
+Нижче додано відповідні PNG/PDF або PPTX матеріали для особистого ознайомлення з тим, що може генерувати або підтримувати цей промпт.
+
+### Переглянути PNG demo: `24.png`
+
+![Demo asset: 24.png](../../examples/24.png)
+
+### Переглянути PNG demo: `24.1.png`
+
+![Demo asset: 24.1.png](../../examples/24.1.png)
+
+### Переглянути PNG demo: `24.2.png`
+
+![Demo asset: 24.2.png](../../examples/24.2.png)
+
+### Переглянути PNG demo: `24.3.png`
+
+![Demo asset: 24.3.png](../../examples/24.3.png)
+
+### Переглянути PNG demo: `24.4.png`
+
+![Demo asset: 24.4.png](../../examples/24.4.png)
 
 ## Пов'язані версії
 
-- - [English version](../en/bachelor-thesis-assembly-prompt.md)
-- - [Category: Workflow кваліфікаційної роботи](../../categories/qualification-thesis-workflow.md)
-- - [All prompts](../../prompts/index.md)
+- [English version](../en/bachelor-thesis-assembly-prompt.md)
+- [Category: Workflow кваліфікаційної роботи](../../categories/qualification-thesis-workflow.md)
+- [All prompts](../../prompts/index.md)
 
 ## Джерело
 
