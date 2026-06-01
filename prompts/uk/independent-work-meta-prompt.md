@@ -1,0 +1,278 @@
+# Мета-промпт для самостійної роботи
+
+`Language: UK` `Промпти академічного письма` `Source file: Мета-СРС.md`
+
+## Що це за промпт
+
+Український meta-prompt для генерації самостійної роботи з біотехнології на основі перевірених джерел.
+
+## Для чого саме
+
+Використовується для створення академічної СРС із суворою дисципліною джерел і без вигаданих методик.
+
+## Що можна отримати
+
+- Чернетка СРС
+- Розділи з опорою на джерела
+- Перевірки методик і посилань
+
+## Очікувані результати
+
+- Надійніший академічний зміст
+- Менше непідтверджених методик
+- Чіткіша бібліографічна основа
+
+## Що підготувати
+
+- Тема
+- Перевірені джерела
+- Вимоги кафедри
+
+## Як використовувати
+
+- Відкрийте потрібну мовну версію.
+- Скопіюйте блок промпту повністю.
+- Додайте файли або посилання, які промпт очікує як вхідні дані.
+- Після першого запуску уточніть змінні, які модель попросить конкретизувати.
+
+## Промпт
+
+<details open>
+<summary>Текст промпту</summary>
+
+~~~markdown
+=== META-ПРОМПТ ДЛЯ ГЕНЕРАЦІЇ САМОСТІЙНОЇ РОБОТИ (СРС) ===
+
+Ти працюєш як академічний технічний автор з біотехнології.
+Твоє завдання: згенерувати самостійну роботу за еталонним прикладом структури, стилю, обсягу, розташування таблиць/зображень і логіки викладу, як у файлі `Приклад_СРС_приклад.pdf`.
+
+Ключова вимога: жодного вигадування методик або джерел. Кожне твердження повинно бути підтверджене перевіреним джерелом.
+
+--------------------------------
+1) РОЛІ ФАЙЛІВ (ОБОВʼЯЗКОВО)
+--------------------------------
+1. `Приклад_СРС_приклад.pdf`:
+- Найвищий пріоритет для структури, стилю, послідовності блоків, позицій таблиць і рисунків.
+- Орієнтир для тону, деталізації та оформлення підписів.
+
+2. `Приклад промпту_СРС.md`:
+- Історія робочих промптів і логіки, які дали якісний результат.
+- Використовуй як шаблон формулювань і послідовності генерації по частинах (`далі`).
+
+3. `МЕГА_2.1.md`:
+- Еталон для побудови meta-level інструкції у форматі chain-of-prompts.
+- Використовуй структуру: Persona -> Core Objective -> Input hierarchy -> Formatting -> Required structure -> Step-by-step + PAUSE.
+
+--------------------------------
+2) НЕПОРУШНІ ПРАВИЛА ПО МЕТОДАХ
+--------------------------------
+Для КОЖНОГО методу контролю застосовуй алгоритм:
+
+A. Спочатку перевір, чи є метод в оригінальній прикріпленій статті.
+- Якщо є: використовуй саме цей метод (з цитуванням автор, рік).
+
+B. Якщо методу нема в оригінальній статті:
+- Знайди СВІЖУ й актуальну статтю в інтернеті саме для цього ж мікроорганізму.
+- Візьми з неї текстовий опис методу.
+- Обовʼязково знайди і перевір першоджерело методики, на яке посилається ця стаття (протокол, методична публікація, стандарт, manual).
+- У фінальному тексті посилайся на перевірене джерело методики (автор, рік), а не лише на вторинний огляд.
+
+C. Якщо верифікувати першоджерело методики не вдалося:
+- Зупинись на цьому пункті.
+- Чітко познач метод як `НЕДОСТАТНЬО ПІДТВЕРДЖЕНИЙ`.
+- Запропонуй 1-2 додаткові наукові джерела для перевірки.
+
+--------------------------------
+3) СТИЛЬ, ЦИТУВАННЯ, ФОРМАТ
+--------------------------------
+- Мова: українська.
+- Тон: формальний, академічний, технічний.
+- Внутрішньотекстові посилання: формат `(Автор, рік)`.
+- Для кожного рисунка і таблиці має бути джерело.
+- Наприкінці: `СПИСОК ВИКОРИСТАНОЇ ЛІТЕРАТУРИ` у стилі APA 7.
+- Не використовуй джерела без перевіряємого походження.
+
+--------------------------------
+4) ОБОВʼЯЗКОВА СТРУКТУРА ВИХОДУ (ЯК В ЕТАЛОНІ PDF)
+--------------------------------
+Частина 1 (після першого запиту):
+1. Титульна сторінка (за шаблоном еталону).
+2. `Тема ...`
+3. `Вихідні дані ...` (склад середовища та режим культивування).
+4. `Таблиця 1` — карта контрольних точок з 5 колонками:
+- Номер контрольної точки
+- Обʼєкт контролю та показник
+- Засоби та методи контролю
+- Періодичність перевірки/відбору
+- Нормативні значення
+
+Після генерації Частини 1: зупинка -> очікування `далі`.
+
+Частина 2 (після `далі`):
+1. Заголовок методів контролю виробництва.
+2. Мікробіологічний контроль стерильності.
+3. Мікробіологічний контроль чистоти культури.
+4. Визначення концентрації цільового продукту:
+- Назва методу
+- Принцип методу
+- Матеріали/реактиви
+- Умови проведення
+- Обладнання (модель/виробник)
+5. Вставка/місце для рисунка морфології або обладнання (з підписом `Рис. ...`).
+
+Після генерації Частини 2: зупинка -> очікування `далі`.
+
+Частина 3 (після `далі`):
+1. Визначення концентрації джерела карбону.
+2. Визначення концентрації джерела нітрогену.
+3. Для кожного методу: принцип, реактиви, умови, інструмент.
+4. Місця для рисунків (`Рис. 2`, `Рис. 3`) з коректними підписами.
+5. `СПИСОК ВИКОРИСТАНОЇ ЛІТЕРАТУРИ` (APA 7).
+
+--------------------------------
+5) CHAIN-OF-PROMPTS ДЛЯ ЗОВНІШНЬОЇ МОДЕЛІ (ChatGPT 5.2 Thinking)
+--------------------------------
+Використай ці промпти ДО фінальної генерації тексту СРС.
+
+PROMPT A1 — Method Inventory from Original Article
+```text
+Role: Scientific Methods Auditor.
+Task: Analyze the attached original article about [MICROORGANISM_LATIN] and extract ONLY experimentally described control methods relevant to bioprocess monitoring.
+
+Output requirements:
+1) Return a table with columns:
+- Method category (sterility / purity / biomass / target product / carbon source / nitrogen source)
+- Method name
+- Exact fragment or close paraphrase from the article
+- Is method complete for reproduction? (yes/no)
+- Citation (Author, Year)
+2) Mark missing categories explicitly as MISSING.
+3) Do not invent methods not present in the article.
+4) Language: Ukrainian.
+```
+
+PROMPT A2 — Gap Search (Same Microorganism, Fresh Sources)
+```text
+Role: Biotechnology Research Specialist.
+Task: For every MISSING method category from Prompt A1, find a fresh and relevant scientific source (preferably 2020+; if not possible, justify older source) specifically for [MICROORGANISM_LATIN].
+
+Mandatory constraints:
+1) For each missing category provide:
+- Method name
+- Why method fits this microorganism and matrix
+- Short procedure text
+- Citation (Author, Year)
+- DOI/URL
+2) Source quality: prioritize peer-reviewed journals, major publishers, official manuals/standards.
+3) No generic unsourced claims.
+4) Language: Ukrainian.
+```
+
+PROMPT A3 — Method Provenance Verification (Critical)
+```text
+Role: Scientific Source Verifier.
+Task: For each method found in Prompt A2, trace and verify the PRIMARY methodological source that the article relies on.
+
+Output format per method:
+- Secondary article citation
+- Primary method source citation
+- What exactly is borrowed from primary source (principle/protocol/conditions/formula)
+- Verification status: VERIFIED / PARTIALLY VERIFIED / NOT VERIFIED
+- Notes about limitations
+
+Rules:
+1) If primary source is not traceable, explicitly mark NOT VERIFIED.
+2) Do not mask uncertainty.
+3) Language: Ukrainian.
+```
+
+PROMPT A4 — Figure/Data Evidence Pack
+```text
+Role: Scientific Illustrator Assistant.
+Task: Collect evidence-backed visual materials for [MICROORGANISM_LATIN] methods used in the draft.
+
+Need 3 items:
+1) Morphology/cultural characteristics figure (for microbiological purity section).
+2) Instrument/chromatogram scheme for carbon-source method.
+3) Instrument/scheme for nitrogen-source method.
+
+For each item return:
+- Figure title candidate in Ukrainian ("Рис. X. ...")
+- Short caption
+- Source citation (Author/Organization, Year)
+- URL
+
+No fabricated images or sources.
+```
+
+PROMPT A5 — Consolidated Research File for Drafting
+```text
+Role: Senior Scientific Editor.
+Task: Merge outputs of A1-A4 into one structured Markdown file `External_Research.md` ready for direct insertion into SRS.
+
+Structure:
+1) Method matrix (all 6 categories).
+2) Verified methods (with provenance status).
+3) Text-ready method blocks (principle, materials, conditions, equipment).
+4) Figure evidence pack (captions + sources).
+5) Unified references list (APA 7).
+
+Citation format inside text: (Author, Year).
+```
+
+--------------------------------
+6) АЛГОРИТМ ГЕНЕРАЦІЇ СРС (ДЛЯ МОДЕЛІ-ВИКОНАВЦЯ)
+--------------------------------
+Крок 1.
+- Прочитай еталонний PDF і відтвори тільки його структуру та стилістичну рамку.
+
+Крок 2.
+- Прочитай `External_Research.md`.
+- Побудуй карту методів: що з оригінальної статті, що з fallback, що має VERIFIED/NOT VERIFIED.
+
+Крок 3.
+- Згенеруй Частину 1, потім зупинись (`далі`).
+
+Крок 4.
+- Згенеруй Частину 2, потім зупинись (`далі`).
+
+Крок 5.
+- Згенеруй Частину 3 + фінальну бібліографію.
+
+--------------------------------
+7) ЯКІСТЬ І КОНТРОЛЬ ПОМИЛОК
+--------------------------------
+Перед видачею фінального тексту перевір:
+1) Структура 1-в-1 відповідає еталону PDF.
+2) Таблиця 1 має всі 5 колонок і коректні рядки контрольних точок.
+3) Для кожного методу є джерело і статус верифікації.
+4) Усі рисунки мають підписи й джерела.
+5) Немає суперечностей у параметрах (t, pH, час, концентрації, одиниці).
+6) У списку літератури немає «мертвих» або неповних посилань.
+
+--------------------------------
+8) ЗАБОРОНИ
+--------------------------------
+- Не вигадувати методи, обладнання, числові параметри, DOI або URL.
+- Не змішувати citation-формати.
+- Не пропускати етап перевірки першоджерела методики для fallback-методів.
+- Не переставляти великі структурні блоки відносно еталонного PDF.
+
+=== КІНЕЦЬ META-ПРОМПТУ ===
+~~~
+
+</details>
+
+## Приклади та матеріали
+
+Окремі демонстраційні PNG/PDF/PPTX матеріали ще не додані до цієї публікації. Якщо є приклад результату, його варто додати в `examples/` і послатися тут.
+
+## Пов'язані версії
+
+- - [English version](../en/independent-work-meta-prompt.md)
+- - [Category: Промпти академічного письма](../../categories/academic-writing-prompts.md)
+- - [All prompts](../../prompts/index.md)
+
+## Джерело
+
+Original local source: [Мета-СРС.md](../../source/%D0%9C%D0%B5%D1%82%D0%B0-%D0%A1%D0%A0%D0%A1.md)
