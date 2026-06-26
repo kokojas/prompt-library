@@ -2,6 +2,19 @@
 
 A public GitHub-ready prompt library built from the local Markdown prompts in this folder.
 
+## What This Library Is For
+
+> **Prompt Library** is a curated collection of reusable prompts for academic writing, document extraction, citation control, presentations, biotechnology coursework, study workflows, and prompt-engineering utilities. It is built for people who repeatedly turn source files, draft notes, requirements, or presentation materials into structured outputs with AI.
+
+| Best for | Typical use cases | Works best when |
+| --- | --- | --- |
+| Students and early researchers | Extract sections from coursework, assemble thesis materials, prepare defense text, generate practice-report structures | You attach the source files and keep the prompt's input checklist visible |
+| Academic and technical writers | Control citations, merge source maps, prepare structured drafts, reduce unsupported claims | You use the prompt as a workflow, not as a one-shot magic instruction |
+| Presentation and report builders | Convert reports, biotechnology projects, and process descriptions into slide-ready plans or speaker scripts | You provide the target format, institution requirements, and example materials |
+| Prompt engineers and AI power users | Design prompt chains, convert files into reusable instructions, audit prompt quality | You adapt the prompt variables and run the workflow step by step |
+
+**The library reveals its value most clearly in repeatable workflows:** choose the closest category, open the prompt page, prepare the listed inputs, copy the full prompt block, then iterate with the model using the expected outputs as a quality checklist.
+
 ## How Navigation Works
 
 The library is designed for quick browsing:
